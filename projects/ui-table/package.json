@@ -1,0 +1,21 @@
+{
+  "name": "@fran765/ui-table",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fran765/art-ui-workspace.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^22.2.0",
+    "@angular/core": "^22.2.0",
+    "@angular/material": "^22.3.0",
+    "@angular/cdk": "^22.3.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/public-api.ts"
+  }
+}

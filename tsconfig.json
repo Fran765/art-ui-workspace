@@ -12,12 +12,23 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "ES2022",
-    "module": "preserve"
+    "module": "preserve",
+    "paths": {
+      "ui-table": ["./dist/ui-table"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/ui-table/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ui-table/tsconfig.spec.json"
+    }
+  ]
 }
